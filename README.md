@@ -25,7 +25,7 @@ Use following steps in each scenario
      - User input is needed to setup the MySQL User password -
         
         `bash ./setup.sh setup_env dev`
-     - Expected Output. Open the shown URL in web-browser
+     - Sample expected Output. Open the actual shown URL on your terminal into the web-browser
 
         `2022-03-28-19-16: Open URL http://192.168.49.2:32443`
 2. To setup Prod Environment
@@ -34,7 +34,7 @@ Use following steps in each scenario
      - User input is needed to setup the MySQL User password -
 
         `bash ./setup.sh setup_env prod`
-     - Expected Output. Open the shown URL in web-browser
+     - Sample expected Output. Open the actual shown URL on your terminal into the web-browser
 
         `2022-03-28-19-20: Open URL http://192.168.49.2:31735`
 3. To cleanup created resources
