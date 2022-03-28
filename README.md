@@ -1,5 +1,35 @@
 # hello-world-k8s-mysql-nodejs
 Get Hellow World response to HTTP request. Nodejs application fetches the data from MySQL database and serve as HTTP response.
+
+# Repository Structure
+Following is the repository structure -
+```
+.
+├── docker
+│   └── node_project
+├── helm
+│   ├── mysql
+│   └── nodejs
+├── k8s
+├── LICENSE
+├── README.md
+└── setup.sh
+```
+- **docker/node_project** -
+Contains Dockerfile and nodejs project supporting code
+- **helm/mysql** -
+Contains MySLQ helm chart
+- **helm/nodejs** -
+Contains nodejs helm chart
+- **k8s** -
+Contains kubernets supporting code e.g configmap, secretes, namespaces.
+- **LICENSE** -
+GPLv3.0 license file.
+- **README.md** -
+README contains explaination about the repository
+- **setup.sh** -
+Deployment script to roll resources to the cluster
+
 # Prerequisite
 - Following tools required to be installed and running/available -
 
